@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="SPOOKYGRAVE_ARC — archivo personal de artículos, fotografías, arte y proyectos." />
+  <title>SPOOKYGRAVE_ARC</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="./index.html" aria-label="Inicio">SPOOKYGRAVE_ARC</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">MENU</button>
+    <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+      <a class="active" href="./index.html">Inicio</a>
+      <a href="./archive.html">Archivo</a>
+      <a href="./photography.html">Fotografía</a>
+      <a href="./about.html">Sobre mí</a>
+      <button class="theme-toggle" type="button" aria-label="Cambiar tema">◐</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">PERSONAL ARCHIVE / EST. 2026</p>
+      <h1>Un lugar para guardar<br><em>lo que no quiero perder.</em></h1>
+      <div class="hero-meta">
+        <p>Artículos · Fotografía · Arte · Notas · Proyectos</p>
+        <span class="status"><i></i> ARCHIVE ONLINE</span>
+      </div>
+    </section>
+
+    <section class="featured-grid" aria-label="Secciones principales">
+      <article class="feature feature-large">
+        <div class="feature-number">01</div>
+        <div class="feature-copy">
+          <p class="kicker">ARTÍCULOS</p>
+          <h2>Ideas, textos y cosas que merecen quedarse.</h2>
+          <p class="muted">Ensayos, notas, opiniones y escritos personales organizados como un archivo propio.</p>
+          <a class="arrow-link" href="./archive.html">Explorar archivo <span>↗</span></a>
+        </div>
+      </article>
+
+      <article class="feature image-feature">
+        <div class="image-placeholder">
+          <span>PHOTO / 001</span>
+          <strong>Aquí irá una de tus fotografías.</strong>
+        </div>
+        <div class="feature-copy compact">
+          <p class="kicker">FOTOGRAFÍA</p>
+          <h2>Imágenes, lugares y momentos.</h2>
+          <a class="arrow-link" href="./photography.html">Ver galería <span>↗</span></a>
+        </div>
+      </article>
+    </section>
+
+    <section class="latest">
+      <div class="section-heading">
+        <p class="eyebrow">LATEST ENTRIES</p>
+        <h2>Últimas entradas</h2>
+      </div>
+
+      <div class="entry-list">
+        <article class="entry empty-entry">
+          <div class="entry-date">—</div>
+          <div>
+            <p class="entry-type">ARCHIVO</p>
+            <h3>Tu primera publicación aparecerá aquí.</h3>
+            <p class="muted">Cuando tengas un artículo, fotografía o proyecto, podemos añadirlo sin cambiar el diseño.</p>
+          </div>
+          <span class="entry-arrow">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <p class="eyebrow">ABOUT THE ARCHIVE</p>
+      <blockquote>“No todo tiene que terminar en una red social. Algunas cosas merecen un lugar propio.”</blockquote>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>SPOOKYGRAVE_ARC</strong>
+      <p>Personal archive.</p>
+    </div>
+    <p>© <span id="year"></span> · Built to keep evolving.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
