@@ -1,4 +1,4 @@
-# SPOOKYGRAVE_ARC
+# GRAYCAVE_ARC
 
 Archivo personal de artículos, fotografía, arte, notas y proyectos.
 
